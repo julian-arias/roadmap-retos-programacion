@@ -6,6 +6,12 @@
 # 2. Representa las diferentes sintaxis que existen de crear comentarios
 #   en el lenguaje (en una línea, varias...).
 
+  matriz1 <- matrix(1:10, nrow = 2, byrow = TRUE)   # Esto es una matriz
+  
+  # Para cada comentario
+  # se debe escribir
+  # una almohadilla
+
 # 3. Este lenaguaje de programación R me sirve mucho como Ingeniero Industrial porque puedo aplicar para
 # diferentes campos en la cadena de suministro, tales como planeación, transporte, demanda, almacenamiento
 
@@ -24,3 +30,4 @@ validador <- TRUE
 # - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
 
 print(paste("Hola", nombre_propio))
+
