@@ -1,26 +1,32 @@
 # 1. Crea un comentario en el código y coloca la URL del sitio web oficial del lenguaje de programación que has seleccionado.
 
-# Esto es R y sirve demasiado para el análisis de datos. La web oficial de R es
+# Esto es R y sirve demasiado para el análisis estadístico y la ciencia de datos. La web oficial de R es
 # https://www.r-project.org/
 
 # 2. Representa las diferentes sintaxis que existen de crear comentarios
 #   en el lenguaje (en una línea, varias...).
 
-# 3. Este lenaguaje de programación R me sirve mucho como Ingeniero Industrial porque puedo aplicar para
-# diferentes campos en la cadena de suministro, tales como planeación, transporte, demanda, almacenamiento
+  matriz1 <- matrix(1:10, nrow = 2, byrow = TRUE)   # Esto es una matriz
+  
+  # Para cada comentario
+  # se debe iniciar con 
+  # una almohadilla (#)
 
-# 4. Crea una variable (y una constante si el lenguaje lo soporta).
+# 3. Crea una variable (y una constante si el lenguaje lo soporta).
 
 vector1 <- c(12,5,80,63)
 const <- pi
 
-# 5. Crea variables representando todos los tipos de datos primitivos
+# 4. Crea variables representando todos los tipos de datos primitivos
 #   del lenguaje (cadenas de texto, enteros, booleanos...).
 
 nombre_propio <- "R"
 numero6 <- c(12,52,6)
 validador <- TRUE
+entero <- 5
+decimal <- 1.5
+nulo <- NULL
 
-# - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+# 5. Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
 
 print(paste("Hola", nombre_propio))
